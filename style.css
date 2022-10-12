@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+img {
+    width: 100px;
+}
+
+header {
+    background-color: #636c79;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;  
+}
+
+ul {
+    list-style-type: none;
+}
+
+li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-items {
+    margin-left: 25%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-item {
+    margin-top: 10px;
+}
+
+.nav-item:hover {
+    display: cursor;
+}
+
+.nav-lets-talk-button {
+    color: white;
+    background-color: transparent;
+    border: solid 1px #6e7580;
+    padding-left: 20px;
+    padding-right: 20px;  
+    padding-top: 10px;
+    padding-bottom: 10px;  
+}
+
+.nav-lets-talk-button:hover {
+    cursor: pointer;
+}
+
+.header-content-section {
+    color: white;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 49%;
+}
+
+.right-side-content {
+    width: 49%;
+}
+
+.left-side-image {
+    width: 75%;
+}
+
+.left-side-image img {
+    width: 100%;
+    height: auto;
+}
+
+.heading {
+    margin-top: 10%;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.details {
+    font-size: 1.5rem;
+    color: #d6d8db;
+}
+
+.input-box {
+    background-color: white;
+}
+
+.input-box i {
+    color: black;
+   
+}
+
