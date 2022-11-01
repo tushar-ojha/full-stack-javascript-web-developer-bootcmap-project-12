@@ -20,6 +20,6 @@
   - Keep coding and thinking about the code is the only way to be better at it.
 
 
-Design given:
+### Design given:
 ![Design](/Design.png)
 
